@@ -1,0 +1,9 @@
+{
+  "apps": [{
+    "name": "server",
+    "script": "./app.js",
+    "instances": 2,
+    "port": 8080,
+    "exec_mode": "cluster"
+  }]
+}
